@@ -2,6 +2,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
+import org.junit.jupiter.api.AfterAll;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -122,7 +123,7 @@ public class Lesson_13 {
 
     }
 
-    @After
+    @AfterAll
     public void tearDown() {
 
         driver.quit();
